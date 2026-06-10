@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreelekshmi - Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main Navigation">
+        <div class="container nav-inner">
+            <span class="nav-brand">Sree Lekshmi H</span>
+
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode">
+                        ⏾
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container">
+            <p class="hero-tag reveal">Hey, I'm</p>
+
+            <h1 class="hero-name reveal">Sree Lekshmi H</h1>
+
+            <p class="hero-role reveal">
+                UI Designer &amp; Web Developer —
+                <span class="highlight">B.Tech CSE, Kerala</span>
+            </p>
+
+            <p class="hero-bio reveal">
+                I design systems, build for the web, and automate the boring stuff.
+            </p>
+
+            <div class="hero-ctas reveal">
+                <a href="#projects" class="btn btn-primary">
+                    See My Projects
+                </a>
+
+                <a href="https://figma.com"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-secondary">
+                    View Figma Design ↗
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <p class="section-label">01 - Work</p>
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+
+                    <article class="card reveal">
+                        <span class="card-tag">UI / UX Design</span>
+
+                        <h3 class="card-title">Tide</h3>
+
+                        <p class="card-desc">
+                            A complete task manager app design built in Figma:
+                            a token-based design system, seven screens,
+                            and a clickable prototype.
+                        </p>
+
+                        <div class="card-meta">
+                            <span class="chip">Figma</span>
+                            <span class="chip">Design System</span>
+                        </div>
+
+                        <a href="https://figma.com"
+                           target="_blank"
+                           rel="noopener"
+                           class="card-link">
+                            View Prototype ↗
+                        </a>
+                    </article>
+
+                    <article class="card reveal">
+                        <span class="card-tag">Web Development</span>
+
+                        <h3 class="card-title">Folio</h3>
+
+                        <p class="card-desc">
+                            This portfolio site. Hand-written semantic HTML,
+                            a CSS design system carried straight from my
+                            Figma tokens, and a dark mode toggle in vanilla
+                            JavaScript. Deployed on Netlify.
+                        </p>
+
+                        <div class="card-meta">
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                            <span class="chip">JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com"
+                           target="_blank"
+                           rel="noopener"
+                           class="card-link">
+                            View Code ↗
+                        </a>
+                    </article>
+
+                    <article class="card reveal">
+                        <span class="card-tag">Automation</span>
+
+                        <h3 class="card-title">Pulse</h3>
+
+                        <p class="card-desc">
+                            A Python bot that sends me a daily summary every
+                            morning, scheduled with GitHub Actions.
+                        </p>
+
+                        <div class="card-meta">
+                            <span class="chip">Python</span>
+                            <span class="chip">GitHub Actions</span>
+                        </div>
+
+                        <a href="#contact" class="card-link">
+                            In Progress →
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+
+                <p class="section-label">02 - Skills</p>
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills-list">
+
+                    <div class="skill reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">HTML &amp; CSS</span>
+                            <span class="skill-pct">75%</span>
+                        </div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Figma &amp; UI Design</span>
+                            <span class="skill-pct">85%</span>
+                        </div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Python (Learning)</span>
+                            <span class="skill-pct">35%</span>
+                        </div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width: 35%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+
+                <p class="section-label">03&#8212;Say Hello</p>
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-lead">Open to Internships, freelance design, and good conversations. The fastest way to reach me is email.</p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:sreelekshmi@example.com" class="conatct-link">
+                        <span class="contact-link-label">Email</span>
+                        <span class="contact-link-value">sreelekshmih4@gmail.com &#8599;</span>
+
+                    </a>
+
+                    <a href="https://github.com"
+                       target="_blank"
+                       rel="noopener"
+                       class="card contact-card">
+                       <span class="contact-link-label">GitHub</span>
+                        <span class="contact-link-value">github.com/sreelekshmi-h &#8599;</span>
+                   
+                    </a>
+
+                    <a href="https://linkedin.com"
+                       target="_blank"
+                       rel="noopener"
+                       class="card contact-card">
+                       <span class="contact-link-label">LinkedIn</span>
+                        <span class="contact-link-value">linkedin.com/in/sreelekshmi-h &#8599;</span>
+                   
+                       
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built from scratch with HTML, CSS &amp; JavaScript&#8212;;</p>
+            <p class="footer-muted">&#169; 20206 Sree Lekshmi H. Designed with Figma , coded by hand.</p>
+        </div>
+    </footer>
+    <button class="to-top" id="to-top" aria-label="Back to Top">&#8593;</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
