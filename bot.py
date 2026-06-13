@@ -86,9 +86,6 @@ def run():
     send_email(summary) 
     print("Pulse ran Successfully")
 
-if __name__=="__main__":
-    run()
-
 def send_email(summary_text):
     sender=os.environ.get("EMAIL_SENDER")
     password=os.environ.get("EMAIL_PASSWORD")
@@ -103,4 +100,6 @@ def send_email(summary_text):
         server.send_message(msg)
     print("Email Sent.")
 
+if __name__=="__main__":
+    run()
 
