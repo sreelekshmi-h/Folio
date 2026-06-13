@@ -83,6 +83,7 @@ def run():
     print(summary)
     with open("daily_summary.txt","w",encoding="utf-8") as f:
         f.write(summary)
+    send_email(summary) 
     print("Pulse ran Successfully")
 
 if __name__=="__main__":
